@@ -1,0 +1,23 @@
+.restaurant-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.meal-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 100px 50px;
+}
+
+.cart-container {
+    background-color: rgb(217, 66, 66);
+    border-radius: 8px;
+}
+
+.cart {
+    position: sticky;
+    top: 10%;
+    padding: 0 20px;
+
+}

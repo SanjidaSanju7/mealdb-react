@@ -26,9 +26,12 @@
     height: 37px;
     border: 0;
     border-radius: 10px;
+    background-color: limegreen;
+    color: white;
+
 }
 
 .btn-food:hover {
-    background-color: limegreen;
+    background-color: firebrick;
 
 }

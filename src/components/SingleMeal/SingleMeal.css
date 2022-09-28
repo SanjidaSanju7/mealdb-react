@@ -1,0 +1,51 @@
+.single-meal {
+    width: 300px;
+    height: 480px;
+    background-color: rgba(128, 128, 128, 0.13);
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0px 0 10px 0;
+    border-color: white;
+}
+
+.single-meal img {
+    border-radius: 15px;
+    width: 286px;
+    height: 260px;
+    padding: 7px;
+
+}
+
+.product-details h4 {
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.product-details {
+    padding: 0 20px;
+}
+
+.product-details p {
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+.cart-button {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    height: 45px;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    background-color: firebrick
+}
+
+.cart-button:hover {
+    background-color: limegreen;
+}
+
+.font-awsome {
+    margin-left: 5px;
+}
