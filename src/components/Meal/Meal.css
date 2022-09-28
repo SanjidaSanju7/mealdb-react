@@ -1,6 +1,11 @@
 .restaurant-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
+
+}
+
+.container h1 {
+    text-align: center;
 }
 
 .meal-container {
@@ -19,5 +24,13 @@
     position: sticky;
     top: 10%;
     padding: 0 20px;
+
+}
+
+.container .input-field {
+    width: 50%;
+    height: 26px;
+    text-align: center;
+    margin-left: 25%;
 
 }
